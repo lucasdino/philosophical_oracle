@@ -1,0 +1,1 @@
+Texts sourced from public domain - majority from Project Gutenberg and Wikipedia.
