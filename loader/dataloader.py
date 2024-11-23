@@ -10,13 +10,13 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 
 
-def load_and_embed_texts(folder, chunk_size=250, chunk_overlap=50, print_info=False):
+def load_and_embed_texts(folders, chunk_size=250, chunk_overlap=50, print_info=False):
     """
     Loads .txt files from a folder, splits them into chunks, and embeds them with SentenceTransformer.
     Returns a structured dataset containing embeddings and metadata.
 
     Args:
-        folder (str): Path to the folder containing .txt files.
+        folders (list of str): Path to the folder containing .txt files.
         chunk_size (int): Maximum size of each chunk (default is 500).
         chunk_overlap (int): Overlap size between chunks (default is 50).
 
@@ -26,22 +26,25 @@ def load_and_embed_texts(folder, chunk_size=250, chunk_overlap=50, print_info=Fa
     splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
     embedder = SentenceTransformer('all-MiniLM-L6-v2')
     data = []
-    for filename in os.listdir(folder):
-        if filename.endswith(".txt"):
-            filepath = os.path.join(folder, filename)
-            with open(filepath, 'r', encoding='utf-8') as file:
-                text = file.read()
-            chunks = splitter.split_text(text)
-            embeddings = embedder.encode(chunks)
+    
+    for folder in folders:
+        for filename in os.listdir(folder):
+            if filename.endswith(".txt"):
+                filepath = os.path.join(folder, filename)
+                with open(filepath, 'r', encoding='utf-8') as file:
+                    text = file.read()
+                chunks = splitter.split_text(text)
+                embeddings = embedder.encode(chunks)
 
-            for chunk, embedding in zip(chunks, embeddings):
-                data.append({
-                    "embedding": torch.tensor(embedding),
-                    "chunk_text": chunk,
-                    "source_file": filename
-                })
-            if print_info:
-                print(f"Embedded {filename} with {len(chunks)} chunks.")
+                for chunk, embedding in zip(chunks, embeddings):
+                    data.append({
+                        "embedding": torch.tensor(embedding),
+                        "chunk_text": chunk,
+                        "source_file": filename
+                    })
+                if print_info:
+                    print(f"Embedded {filename} with {len(chunks)} chunks.")
+    
     return pd.DataFrame(data)
 
 
@@ -112,14 +115,14 @@ def create_custom_dataloader(dataframe, file_to_label, num_labels, batch_size=32
     return dataloader
 
 
-def get_dataloader(data_folder, hyperparams, label_mapping, balance_data=True, print_info=True):
+def get_dataloader(data_folders, hyperparams, label_mapping, balance_data=True, print_info=True):
     start = time.time()
-    dataframe = load_and_embed_texts(data_folder, chunk_size=hyperparams['chunk_size'], chunk_overlap=hyperparams['chunk_overlap'], print_info=print_info)
+    dataframe = load_and_embed_texts(data_folders, chunk_size=hyperparams['chunk_size'], chunk_overlap=hyperparams['chunk_overlap'], print_info=print_info)
     if balance_data:
         dataframe = balance_dataset(dataframe, label_mapping, max_multiplier=hyperparams['balance_multiplier'])
     
     dataloader = create_custom_dataloader(dataframe, label_mapping, num_labels=hyperparams['num_labels'], batch_size=hyperparams['batch_size'], shuffle=True)
     duration = time.time() - start
     
-    print(f"Dataloader from ('{data_folder}') created with {len(dataloader)} embeddings in {duration:.1f} seconds.")
+    print(f"Dataloader from ('{data_folders}') created with {len(dataloader)} embeddings in {duration:.1f} seconds.")
     return dataloader
