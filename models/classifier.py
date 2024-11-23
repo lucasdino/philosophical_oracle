@@ -12,6 +12,8 @@ class Classifier(nn.Module):
         self.input_dim = input_dim
         self.hidden_dim = hidden_dim
         self.output_dim = output_dim
+        self.dropout = dropout
+
         self.fc1 = nn.Linear(input_dim, hidden_dim)
         self.fc2 = nn.Linear(hidden_dim, hidden_dim)
         self.fc3 = nn.Linear(hidden_dim, output_dim)
@@ -35,6 +37,7 @@ class Classifier(nn.Module):
             'input_dim': self.input_dim,
             'hidden_dim': self.hidden_dim,
             'output_dim': self.output_dim,
+            'dropout': self.dropout,
             'state_dict': self.state_dict()
         }
         torch.save(model_info, filename)
@@ -48,7 +51,8 @@ class Classifier(nn.Module):
         model = cls(
             input_dim=model_info['input_dim'],
             hidden_dim=model_info['hidden_dim'],
-            output_dim=model_info['output_dim']
+            output_dim=model_info['output_dim'],
+            dropout=model_info['dropout']
         )
         model.load_state_dict(model_info['state_dict'])
         print(f"Model loaded from {filepath}")

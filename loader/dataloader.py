@@ -49,6 +49,26 @@ def load_and_embed_texts(folders, chunk_size=250, chunk_overlap=50, print_info=F
     return pd.DataFrame(data)
 
 
+def embed_texts(text, chunk_size=250, chunk_overlap=50, print_info=False):
+    splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
+    embedder = SentenceTransformer('all-MiniLM-L6-v2')
+    data = []    
+
+    chunks = splitter.split_text(text)
+    embeddings = embedder.encode(chunks)
+
+    for chunk, embedding in zip(chunks, embeddings):
+        data.append({
+            "embedding": torch.tensor(embedding),
+            "chunk_text": chunk,
+            "source_file": "inference_data"
+        })
+    if print_info:
+        print(f"Embedded inference data with {len(chunks)} chunks.")
+    
+    return pd.DataFrame(data)
+
+
 class EmbeddingDataset(Dataset):
     def __init__(self, dataframe, file_to_label, num_labels):
         """

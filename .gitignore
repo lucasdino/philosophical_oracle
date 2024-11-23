@@ -1,8 +1,7 @@
 # Workspace directories
 philosophy_oracle/
-scraping/
 raw_data/
-cleaned_data/
+model_weights/
 
 # Python notebook checkpoints
 .ipynb_checkpoints/
