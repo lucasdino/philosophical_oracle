@@ -1,4 +1,5 @@
 import os
+import csv
 import time
 import pandas as pd
 
@@ -117,6 +118,7 @@ def create_custom_dataloader(dataframe, file_to_label, num_labels, batch_size=32
 
 def get_dataloader(data_folders, hyperparams, label_mapping, balance_data=True, print_info=True):
     start = time.time()
+    data_folders = [os.path.join('data', folder) for folder in data_folders]
     dataframe = load_and_embed_texts(data_folders, chunk_size=hyperparams['chunk_size'], chunk_overlap=hyperparams['chunk_overlap'], print_info=print_info)
     if balance_data:
         dataframe = balance_dataset(dataframe, label_mapping, max_multiplier=hyperparams['balance_multiplier'])
@@ -124,5 +126,20 @@ def get_dataloader(data_folders, hyperparams, label_mapping, balance_data=True, 
     dataloader = create_custom_dataloader(dataframe, label_mapping, num_labels=hyperparams['num_labels'], batch_size=hyperparams['batch_size'], shuffle=True)
     duration = time.time() - start
     
-    print(f"Dataloader from ('{data_folders}') created with {len(dataloader)} embeddings in {duration:.1f} seconds.")
+    print(f"Dataloader from ('{data_folders}') created with {len(dataloader)} batches in {duration:.1f} seconds.")
     return dataloader
+
+def load_labeling_mappings():
+    base_folder = 'data/labeling'
+    filename_category_file = os.path.join(base_folder, 'filename_category_mapping.csv')
+    category_label_file = os.path.join(base_folder, 'category_label_mapping.csv')
+
+    def load_csv_to_dict(file_path):
+        with open(file_path, mode='r', newline='', encoding='utf-8') as file:
+            reader = csv.reader(file)
+            next(reader)  # Skip the header
+            return {row[0]: row[1] for row in reader}
+
+    filename_category_mapping = load_csv_to_dict(filename_category_file)
+    category_label_mapping = load_csv_to_dict(category_label_file)
+    return filename_category_mapping, category_label_mapping
