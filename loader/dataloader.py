@@ -30,8 +30,8 @@ def load_and_embed_texts(folders, chunk_size=250, chunk_overlap=50, print_info=F
     
     for folder in folders:
         for filename in os.listdir(folder):
+            filepath = os.path.join(folder, filename)
             if filename.endswith(".txt"):
-                filepath = os.path.join(folder, filename)
                 with open(filepath, 'r', encoding='utf-8') as file:
                     text = file.read()
                 chunks = splitter.split_text(text)
@@ -45,6 +45,20 @@ def load_and_embed_texts(folders, chunk_size=250, chunk_overlap=50, print_info=F
                     })
                 if print_info:
                     print(f"Embedded {filename} with {len(chunks)} chunks.")
+            elif filename.endswith(".csv"):
+                df = pd.read_csv(filepath)
+                
+                for _, row in df.iterrows():
+                    response = row['response']
+                    philosophy = row['philosophy']
+                    embedding = embedder.encode([response])[0]
+                    data.append({
+                        "embedding": torch.tensor(embedding),
+                        "chunk_text": response,
+                        "source_file": philosophy
+                    })
+                if print_info:
+                    print(f"Embedded {filename} with {len(df)} rows.")
     
     return pd.DataFrame(data)
 
@@ -148,6 +162,7 @@ def get_dataloader(data_folders, hyperparams, label_mapping, balance_data=True, 
     
     print(f"Dataloader from ('{data_folders}') created with {len(dataloader)} batches in {duration:.1f} seconds.")
     return dataloader
+
 
 def load_labeling_mappings():
     base_folder = 'data/labeling'

@@ -6,24 +6,19 @@ gpt_kafka.txt,absurdism
 kafka_thetrial.txt,absurdism
 philthis_camus.txt,absurdism
 absurdism_wikipedia.txt,absurdism
+absurdism,absurdism
 buddha_stanford_pe.txt,buddhism
 buddhism_wikipedia.txt,buddhism
 essence_of_buddha.txt,buddhism
 gpt_buddhism.txt,buddhism
 philthis_buddhism.txt,buddhism
-confucianism_wikipedia.txt,confucianism
-gpt_confucianism.txt,confucianism
-philthis_confucianism.txt,confucianism
-confucius_analects.txt,confucianism
-effectivealtruism.txt,effective altruism
-philthis_effectivealtruism.txt,effective altruism
-gpt_effectivealtruism.txt,effective altruism
-effectivealtruism_wikipedia.txt,effective altruism
+buddhism,buddhism
 epicurus_lettermenoeceus.txt,epicureanism
 philthis_epicurus.txt,epicureanism
 gpt_epicureanism.txt,epicureanism
 epicurus_fragments.txt,epicureanism
 epicureanism_wikipedia.txt,epicureanism
+epicureanism,epicureanism
 beauvoir_ethicsambiguity.txt,existentialism
 kierkegaard_presentage.txt,existentialism
 philthis_beauvoir.txt,existentialism
@@ -34,6 +29,8 @@ nietzsche_tsz.txt,existentialism
 philthis_nietzsche.txt,existentialism
 gpt_nietzsche.txt,existentialism
 existentialism_wikipedia.txt,existentialism
+existentialism,existentialism
+existentialism_reddit.txt,existentialism
 gpt_leibniz.txt,rationalism
 gpt_spinoza.txt,rationalism
 leibniz_theodicity.txt,rationalism
@@ -41,14 +38,13 @@ philthis_leibniz.txt,rationalism
 philthis_spinoza.txt,rationalism
 rationalism_wikipedia.txt,rationalism
 spinoza_ethics.txt,rationalism
+rationalism,rationalism
 aurelius_meditations.txt,stoicism
 philthis_stoicism.txt,stoicism
 gpt_stoicism.txt,stoicism
 stoicism_wikipedia.txt,stoicism
-gpt_taoism.txt,taoism
-philthis_taoism.txt,taoism
-taoism_wikipedia.txt,taoism
-laozi_taoteching.txt,taoism
+stoicism,stoicism
+dailystoic.txt,stoicism
 emerson_selfreliance.txt,transcendentalism
 thoreau_walden.txt,transcendentalism
 philthis_emerson.txt,transcendentalism
@@ -56,3 +52,4 @@ philthis_thoreau.txt,transcendentalism
 gpt_emerson.txt,transcendentalism
 gpt_thoreau.txt,transcendentalism
 transcendentalism_wikipedia.txt,transcendentalism
+transcendentalism,transcendentalism
