@@ -1,0 +1,166 @@
+Why Pivot?
+My motivation behind leaving finance, taking a gap year to get technical, and starting grad school.
+Preface: This is my attempt at organizing the thoughts that lead me to make the biggest decision of my life. Like don’t get me wrong — it feels tacky writing that — but this decision resulted in me leaving a successful career to essentially start from scratch. So I do feel this decision deserves that title.
+While writing this, I decided that I wanted to be fully transparent about my history, options, and beliefs — resulting in a more honest story than I would typically share. This may come off as philosophical or boastful at times, but I felt that my honesty would be more interesting and (at best) of value to share. 
+I would appreciate if you approached this with an open mind and an understanding of this context
+I was 23 years old and nearing the end of my 2-year contract in investment banking. I had options to take a promotion or to recruit for exit opportunities in PE, VC, or corporate finance.
+But I knew I needed to change my career — this wasn’t what I wanted.
+This wasn’t a decision made out of the blue either. I had mulled over the question of what my ‘next step’ would be for the better part of the prior year — and I had explored most of the natural exit opportunities available to me.
+So, following loads of diligence and self-reflection, I ended up taking a gap year to get insanely technical and study machine learning. I wanted to see if I liked it enough and if so, I would prepare for and apply to research-based master’s programs. If not, then I was going to reassess.
+More or less, I was going to start from scratch.
+I’m writing this in April 2024 — 10 months into my sabbatical$^1$ — and having just finalized my decision to attend UC San Diego for their MSCS program starting this fall.
+So, in an attempt to organize my thoughts in a transparent, succinct manner…
+This is why I pivoted.
+Banking Wasn’t That Bad
+For starters — I have no regrets about beginning my career in investment banking.
+While I’ll definitely criticize finance at times, I cannot avoid the fact that looking back, I generally have a sense of gratitude for my 2 years in banking – and it is important context underlying my pivot. So…what was the good? 
+ Context: I worked at a FinTech-focused investment bank.
+ 
+1. Work Experience: Oh great – he’s going to list his resume. Nah, I'll be brief and spare us both. I found the best work experience from banking is less tangible and it revolves around the fact that you are privy to conversations no 22-year-old has a right to be a part of. You get to see how executives and investors think and become less intimidated of titles – and you see why the good businesses are kicking butt and why the bad businesses, well, aren’t. And, of course, pretty PowerPoints can go a long way.
+2. Deglamorizes Careers: Getting to see how private equity, venture capital, and startups operate on a day-to-day basis definitely helped ground my perception of these career paths. More on this later.
+3. Confidence: I gained the confidence that I am employable. If I absolutely needed a job, I know which corporate roles I am qualified for and could perform in. May not be a flashy position, but this security has freed me to make riskier decisions.
+4. Nest Egg: I was careful to live frugally because I knew my income was temporary. Similar to the last point, this has freed me to take on a bit more risk.
+5. Relationship with Money: The job objectively sucks at times. If you’re miserable with money, it still means you’re miserable. Banking really internalized the concept that your career should finance your desired lifestyle – which you have full control over — and keeping up with the Joneses is very real in finance and can be a dangerous trap to fall into. A related quote that I love (I’m Greek - let me quote a stoic philosopher without judgement):
+    
+     “It is not the man who has too little, but the man who craves more, that is poor.”  
+    - Seneca
+     
+The best part is that this was a crash course – I learned most of points #2 - #5 within my first year. This prompted soul searching and allowed me to have some time before the end of my 2 years to start thinking about what kind of work would give me a satisfying, sustainable career. Much more on this coming up 🙂
+What I Learned About Myself from My First Job
+Prior to starting in banking, I had worked several types of jobs — but all being temporary or part-time gigs. Some in finance, several others outside of it.
+But there is something special about getting into your first full-time job and getting slapped across the face with reality. The hours and responsibility were expected; the part that took me by surprise was how quickly I was going to face the ‘huh, so what is this all for’ question.
+As I contemplated the next step, I had to first reflect on the things I learned about myself from my time in banking:
+1. I Enjoy Work. Not trying to be tacky — I genuinely derive a lot of fulfillment from working on things that interest me. When I was invested (figuratively) in my deals, the hours didn’t bug me — and the key takeaway is that whatever my next step is, it needs to be something that absolutely captivates me. I’m less worried about the work required to get up-to-speed on something new — it needs to be something that takes my interest by storm.
+2. Finance Was Too Removed. My brother once joked about how when we were in high school, we were taught about different layers of industry: Primary (mining, agriculture), secondary (manufacturing, etc.), and then tertiary (they just bucketed everything else in this)… but FinTech investment banking? Gotta be like 10 layers removed. 
+    
+    This hits on some truths I saw regarding roles in external finance (IB/PE/etc.), internal finance (corporate roles), and adjacent exits (strategy, etc.) — you are inherently removed from the actual product and the customer. Don’t get me wrong — these are important roles — but I’d like to be involved in the tangible aspects. For now. 
+    
+    I also noticed that the best advisors and investors were previously operators — and as a final point, whenever we did a deep dive on a client, my favorite conversations were with the tech, product, and operations teams. Essentially every time. 
+    
+    The children (me) yearn for the mines (tangible aspects of a business).
+    
+3. The Work Needs to be Necessary. In banking, there is a lot of work that was done to appease clients (mostly ‘proactively’) or to validate the fees that the bank was going to be charging. I understand client-facing roles require this mindset — but in my future career, I want to avoid much of this if possible. A level of this work is necessary, but I’d like to avoid the role of ‘seeming valuable’ — some jobs have a lot more of this than others.
+4. It’s Fun to be Challenged. There were several times I got to take more responsibility than I expected to get — and there were times I had to work on my highest gear to get something done in time. This did come with some failures, but the job testing my limits was an incredibly satisfying and fulfilling aspect that I want in future roles.
+All of this summed up: I want to work on meaningful, challenging problems that interest me. 
+I was less worried about the new path requiring a reskilling period — I honestly expected a reskilling period. As long as the problems I would be working on captivated me, I was prepared to commit to it.
+Finance Won’t Cut It
+Here are the reasons I disqualified these careers as next steps. This is not saying these are bad careers — just not for me (at this point).
+- Private Equity (Buyout, MM, Growth, VC, ESG, etc.)
+    
+    We’ll start with the career bucket that has some of my hottest takes 
+    
+    PEs unfortunately tend to be some combination of the following: 1) Bad at their jobs, 2) bad for society, or 3) bad work environments. Let me quickly clarify.
+    
+    - Bad at their jobs. There are many mediocre funds — people getting paid a lot to give subpar returns. Yes, there are good funds that deserve their compensation — but these are the exception not the norm.
+- Bad for society. This is targeted at the buyout folks. I have personally seen many cases of companies getting acquired by a PE to have them butcher the firm culture, lower the product quality, and unnecessarily raise prices. I get it — they’re trying to make a return; but this often involves trading the goodwill and loyalty of customers and employees for these returns. Also having grown up in the Midwest, it is disappointing to see the ballooning proportion of PE-owned businesses — a trend I might do a deep dive on that I call Modern Colonialism.
+    
+    Note: Buyout PE serves an important role as a liquidation vehicle in the economy. However, I couldn’t get myself to work for this.
+    
+- Bad work environments: It is expected that the hours are bad — the bigger red flag is the fact that this is an industry with embedded growth obligations that saw its golden age decades ago. When moving up the ladder becomes increasingly difficult, what happens when you need to compete with people at your level for a smaller number of positions above? Worse working conditions (bad hours, bad culture) and career stagnation. Even if you get to that position, what was the cost, and is it that what you really wanted?
+These jobs are important in the economy — there is a reason they exist and are part of the reason the US is as dominant as it is — but here are my final points on each vertical:
+- Buyout / MM: If these funds don’t fall into one of the three buckets listed above, the core thing for me is that I’d, once again, be removed from tangible aspects of the business and would be working for money and perceived status. I identified that this isn’t a path for a satisfying career for me — which is why this industry ultimately isn’t appealing.
+- Growth / VC: Apart from many of these funds having subpar returns (95% of VCs don’t return 3x MOIC), over my two years in banking I tried to understand what made VCs helpful to their portcos. The big takeaway I saw is that the best VC partners — the ones who founders wanted on their board — were previously operators (former C-suite / founders). My gut feeling is that if I tried to ‘break in’ to VC immediately, I was likely to be mediocre. What value could I realistically offer a founder? A network and a face with money?
+- ESG: Apart from a lot of greenwashing going on, this was an interesting path I considered — specifically around climate initiatives. But the ESG investing industry has been booming (IMO - this is generally a good thing!) to the extent I worry it is oversaturated to be starting a career in. That said, several compounding factors (about the industry and about myself) led me to decide against this vertical.
+- Investment Banking
+    
+    Lol. Look, as mentioned earlier I don’t regret working in banking for several reasons. However, the ‘why it matters’ still lacks for me. Additionally, I didn’t find the work particularly stimulating; more or less you run processes — occasionally there are interesting analyses.
+    
+- Equity Research
+    
+    The importance of this role has deteriorated over the last 20 years. It’s also too removed for my liking — there is a type of person that loves this kind of work and it isn’t me.
+    
+- Hedge Fund / Trading
+    
+    I’m batching these two because the disqualification is the same. I understand my brain and what I’m motivated by — this would not excite me as a career.
+    
+- Corporate Finance / Strategy
+    
+    This isn’t an unattractive option — and there are many possible roles I’m bucketing in this (strategic finance, procurement, corporate development, etc.). Finding a company whose product interests me and working to help them deliver on that isn’t unattractive at all — you are closer to actually creating value, you get a better work-life balance (typically), and it’s more of a career play. However, for this stage in my life, I wanted to take a more ambitious risk. Even if I went to a startup, I don’t feel this is the optimal path for me currently.
+    
+While this doesn’t encapsulate all of the possible next steps I considered, this highlights many of the reasons I decided to leave finance.
+I also thought about starting my own thing or switching to PM — but at this point, I was set on becoming technical.
+Desire to Become Technical
+ Preface: This section is philosophical and opinionated. Feel free to read it if you’re curious — if you skip it, I’ll have no hard feelings 😎 
+UPDATE (11/19/2024): As a check-in ~6 months after posting this — becoming technical was a great call. The challenge is incredibly stimulating and I love the feeling of ‘honing my craft’ — not to mention that I feel a strong sense of internal satisfaction. Onward and upward 🚀
+TLDR; I want to become technical because I really like technical work and morally believe this is the path I should be doing.
+ 
+Before I begin — a few quick caveats:
+1. Not everyone needs to be technical.
+2. Non-technical roles are important and essential for well-run businesses and a functioning economy.
+3. My irritation is with the over-saturation of these roles — not individuals working in them.
+Please do not take anything personal as this is directed at broader trends. Additionally, I am incredibly pro-USA and want to hand a world to my children that is better than what I’ve inherited. Please interpret my views with this context. 
+One of the biggest blackpills I’ve taken revolves around the proliferation of high-status, low-risk, and value-removed roles. Specifically, I’m disappointed in the popularity of students at elite universities$^2$ to pursue these roles — finance, consulting, cushy/laid-back tech jobs, etc. 
+Before I keep going…yes, this was me. This is partly why I’m so opinionated.
+A concept that resonated with me was James Burnham’s theory of the managerial economy that foreshadowed the proliferation of a managerial professional class. This is further reinforced by increasing enrollment in MBA programs (~20% increase from 2016-2020) and McKinsey’s headcount up 60% since 2018 (Fortune).
+Working in finance exposed me to this type of world — and my resounding gut feeling was this:
+1. This is very Atlas Shrugged. You have high-status, highly paid jobs that are entirely removed from creating value; they optimize and maximize value — sure — but they don’t actually create any value. These jobs are sought after because of what you learn (section above on ‘Banking Wasn’t That Bad’) and the opportunities that follow, but those roles are largely in the same vein: Removed from creating value.
+    
+    Many of these jobs seem to exist to serve three roles. 1) Maximize outcome in a market environment — as the market becomes more competitive and efficient, these jobs become even more ‘in-demand’ as part of an insatiable talent black hole. Think finance. 2) Understand and navigate the increasing complexity of the world we live in. Lawmakers are incentivized to write more laws, and as more people are employed in this complexity economy, it becomes more disastrous to make a sweeping change to fix it. Think forms of law and consulting. 3) Address incompetence that exists in ever-bloating organizations. Think consultants and hiring of more middle management.
+    
+    To me, this is all a clear result of incentives. 
+    
+    1. In companies, people want to become managers because you can (typically) only reach a certain level as an individual contributor. At a certain point, you need to manage and delegate otherwise your career trajectory is ‘stuck’. The result? Lots of layers of management. Elon’s gutting of Twitter — while flawed — showed how much unnecessary fluff can exist.
+    2. As mentioned before, policymakers are directly incentivized to write new legislation. “How many bills did they sponsor?” — this is an imperfect but somewhat effective incentive. However, who is incentivized to simplify laws? This is why it will be very interesting to see how Argentina’s libertarian experiment fares.
+    3. Some industries become so big that fixing the underlying problems would be disastrous. Take healthcare. United Healthcare has an enterprise value of over $400B and 440,000 employees — imagine the impact that a massive (needed) overhaul of the US healthcare industry would have on the economy? Not to mention all the other companies playing in this space and healthcare administrators. Fun fact, I learned that the State of Wisconsin was paying UNH for healthcare that I didn’t know I had while I was on my sabbatical — never opted in, was automatically enrolled because I was ‘unemployed’ though I was paying for my own insurance through a different provider. Took hours to cancel.
+    
+    The point is — as we become more removed from actual production, our ‘domain expertise’ increasingly relates to knowledge about the systems that have been built up. Some level of these roles is important, but too many of these and we lose the spark that got us to where we are today. 
+    
+2. Where is the domestic talent? This isn’t meant to be xenophobic — thank goodness the US attracts talent (the majority of unicorns in the US are founded by immigrants) — rather, it is a genuine question about the state of our schooling and culture. Have many of the domestic, ambitious, and creative builders been attracted to high-status managerial jobs vs. starting new businesses and solving difficult problems? Does our culture groom talented youth for low-risk paths by an achievement system that prizes brand and prestige in higher-education — with the natural successive step moving into these high-status, low-risk jobs?
+I recently interviewed my Greek grandfather who immigrated to the US when he was 30 with $10 in his pocket. The stories, determination, and sacrifice of immigrants are something that have and will continue to inspire. But if the US relies on external talent to retain its position in the world, how fragile is it to shifting macroeconomic trends or poor policy?
+This strikes me as a symptom of civilization in decline. We’ll probably be alright, but this is a trend that disappoints and concerns me. 
+3. Are we planting, or are we harvesting? The quality of life that I get to enjoy today exists because of generations of hard work from my family, community, and society. Many of these high-status jobs exist because of this as well; all of humanity is built upon knowledge, tools, and infrastructure that was passed down.
+    
+    But are we planting for the future, or are we harvesting what others planted before us? If everyone chooses the low-risk, comfortable path, the world that our children inherit will not be better than the one we live in today.
+    
+    I am under the belief that if humanity stops innovating and progressing into the future — making sci-fi into reality — humanity has a higher chance of killing itself off than if it chooses the path of progress. I am unequivocally and unapologetically a techno-optimist, and this was something that I recognized while working in finance.
+    
+It was clear to me that I wanted to become technical.
+What I had chosen to do — a path that seemed like the right thing with great experience, future opportunity, and good compensation — became hypocritical to my philosophy. 
+I also recognized that I really enjoyed technical work and felt that I was competent enough to make a switch if my dedication was there. A big motivation that I internalized was the following:
+ If I was giving myself advice knowing everything that I am feeling, what would I tell myself to do?
+ 
+My advice would be to leave finance, study, and figure out where I can fit into a career that aligns with my interests and philosophy. And if I wouldn’t take this advice myself, why should I ever expect anyone to take my advice going forward?
+Industries I Considered
+In late 2022, I had decided I was going to make the leap to being more technical — but I needed to figure out which industry I would be interested in pivoting into.
+I researched many different industries and followed where my interests naturally lead me over the past few years — concocting the following (buzzword-loaded) short list:
+- Clean Energy Transition
+    
+    I’m incredibly bullish on nuclear and reviving fission (nuke-pilled!). Solar and wind need continued deployment, there is much to be done around building a battery infrastructure, and then there are applications toward modernizing the grid. I also firmly believe the climate crisis won’t be solved politically — this needs to be solved via technology and scaling a better alternative that is green.
+    
+- Artificial Intelligence
+    
+    I believe this is the most exciting thing that will be developed in my lifetime. AI has the potential to help humanity solve its most difficult problems, and in the same way that the Agricultural and Industrial Revolutions permanently changed how society functions, the impact will be felt across all aspects of life. Yes — I’m basically citing the classic adage of AI is the future, but true, agentic AI will reshape society. 
+    
+- Space
+    
+    Look, I’m a space nerd. This is very exciting as SpaceX has lowered the cost-to-orbit by orders of magnitude which will empower new use cases that were previously infeasible. This means literal moonshots (pun intended) that were science fiction may have an economic case now / in the near future with the Starship Program.
+    
+- Future of Mobility
+    
+    This includes autonomous vehicle fleets, electric vehicles, building better public transit (huge supporter/user of public transit!), possibly domestic high-speed rail. Policy capture in the mid-20th century destined the USA to be built around the car; it would be interesting, challenging, and rewarding to solve how we can transition to a better alternate.
+    
+- Future of Housing
+    
+    I love the concept of neo-villages where remote work can allow people to move to more rural settings and be closer to nature and in smaller communities. There are some cool experiments being done around reimagining housing communities and living spaces, though these are still experiments.
+    
+Each strike me as an exciting and meaningful problem to work on — so I started doing more research and whittled this list down to climate, AI, and space. I then dove into each — what was being built, what were the underlying technologies, and what excites me about them?
+For AI, I had started with the Google Intro to ML courses and would work on them during downtime in the office and at home. This was December 2022. 
+I was really enjoying studying ML but realized I needed to improve my coding and math ability significantly — cue me relearning Calculus 1 (it had been 6 years guys!) and throwing myself into the deep end. I could tell something was working. Studying didn’t feel like a chore, and I was captivated to learn about the technology. This was March 2023.
+It was around this time I decided that I’ll never be certain, but the signs were pointing in the right direction. I was going to take time off after my contract ended on June 30th to study incessantly and — if I enjoyed it — apply to graduate programs.
+Spoiler, I loved it.
+My Approach to a Sabbatical
+I knew I was going to be studying a lot — that was my main goal for the next ~5 months.
+I wanted to have a place where I could focus, ideally with minimal distractions, and I wanted to be frugal as I knew I needed to make my savings last. So, I could study out of my parent’s home (thankful for my parents being open to this!) OR I could do long-term pet sitting abroad. 
+Well, one of the options seemed significantly more fun that the other…and that is what I decided to do 
+I had freedom, zero responsibilities, and was feeling a bit opportunistic, so I decided to take a month traveling with some friends before living in Greece for two months and heading to Australia to pet sit for the remainder of the year.
+I’m planning to cover these aspects in more detail — I lived in Tasmania for ~$20 a day and I got to study in some incredibly beautiful places. But rather, I want to quickly highlight my approach to studying that I took (w/ rough timelines):
+This isn’t everything and there was a lot of random self-studying throughout. Some days I was incredibly productive, some days not as much.
+But I am proud of what I have been able to learn over the last year with very minimal guidance. The most enlightening takeaway is how much you’re able to teach yourself if you are resourceful, motivated, and disciplined.
+Most striking example: The only math class I took in college was Calculus 2 — I didn’t need to take anything further and I didn’t see the value in continuing at the time. Now I’m once again in math — 6 years later — but in graduate-level courses that required multiple courses of self-taught pre-requisites. Higher-level math can be incredibly fun and creative in a way I didn’t expect.
+I’m still very early on this journey and there is clearly much for me to learn, but I am excited to be starting the next chapter at UCSD. Although I saw how effective self-studying can be, a research-based Master’s program will help me understand if research is a route I would be interested in continuing. Maybe this will lead to a PhD, maybe I’ll be back in industry after 2 years.
+We’ll see!
+---
+The decision to pivot from finance was not one I made lightly — and the opportunity cost of my decision is something that I remind myself of and use as motivation.
+Over the last year, I have learned a lot about myself — what matters to me, what I’m capable of, and what I need to be happy (very little, I’m a simple guy). I’ve also been able to spend a ton of time with family which has been incredible.
+So that is my pivot. 
+It’s been a heck of a year!
