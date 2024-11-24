@@ -1,7 +1,7 @@
 # Workspace directories
 philosophy_oracle/
 raw_data/
-all_source_texts/
+all_texts/
 discarded_philosophies/
 
 # Python notebook checkpoints
