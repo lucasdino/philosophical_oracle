@@ -1,5 +1,4 @@
 # Philosophize That: Using Document Embeddings to Predict Philosophical Theory   
----   
 This was a quick personal project to answer the question: *Can I use document embeddings to predict philosophical theory across a diverse set of writing styles and apply this classifier to my own writing?*
 
 I believe the results were interesting and effective. Curious to learn more? Couple sources:
