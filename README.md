@@ -1,5 +1,10 @@
-Hello!   
+# Philosophize That: Using Document Embeddings to Predict Philosophical Theory   
+---   
+This was a quick personal project to answer the question: *Can I use document embeddings to predict philosophical theory across a diverse set of writing styles and apply this classifier to my own writing?*
 
-This is a project for Statistical Natural Language Processing (CSE 256) at UCSD - but this has been a project of mine that I've wanted to complete for awhile.
+I believe the results were interesting and effective. Curious to learn more? Couple sources:
+1. Casual Write-Up [here](https://lucasdino.notion.site/Philosophize-That-147c748e5e4a8054b857eee9e47bf62d?pvs=4)
+2. Technical Write-Up [here](https://lucasdino.github.io/assets/files/philosophize_that.pdf)
+3. Colab to classify your own writing [here](https://tinyurl.com/philosophizethat)
 
-The idea -- how can we properly interpret and embed philosophical and religious texts to analyze how they differ? From this, could we build a way for someone to upload their journal entry (or some piece of writing that has philosophical density) to categorize someone's beliefs? From this, you could recommend specific texts that are most similar to your personal philosophy -- or even recommend very different concepts to expand your worldview.
+Don't hesitate to [reach out](https://lucasdino.github.io/pages/contact.html) with any thoughts or feedback - would love to chat if you found this interesting!
